@@ -76,14 +76,14 @@ public class Main {
         String javaString = "$Stiegler123";
         String javaRegex = "^([a-zA-Z_$][a-zA-Z\\d_$]*)$";
         boolean javaValid = Pattern.matches(javaRegex, javaString);
-        System.out.println("Is the Java Identifier code valid? " + javaValid);
+        System.out.println("Is the Java Identifier valid? " + javaValid);
 
         //Write a regular expression to match a valid hexadecimal color code (starts with a # followed by 6 hexadecimal digits).
 
         String hexaString = "#5e3205";
         String hexaRegex = "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$";
         boolean hexaValid = Pattern.matches(hexaRegex, hexaString);
-        System.out.println("Is the hexadecimal color code valid? " + hexaValid);
+        System.out.println("Is the hexadecimal color valid? " + hexaValid);
 
         //Write a regular expression to match a valid time in the 24-hour format (HH:MM).
 
