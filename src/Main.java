@@ -72,7 +72,7 @@ public class Main {
         }
 
         //Write a regular expression to match a valid Java identifier (a sequence of letters, digits, underscores, and dollar signs, not starting with a digit).
-        String javaString = "$geeks123";
+        String javaString = "$Stiegler123";
         String javaRegex = "^([a-zA-Z_$][a-zA-Z\\d_$]*)$";
         boolean javaValid = Pattern.matches(javaRegex, javaString);
         System.out.println("Is the Java Identifier code valid? " + javaValid);
