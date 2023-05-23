@@ -6,7 +6,7 @@ public class Main {
 
         //Write a regular expression to match a valid email address.
 
-        String emailString = "john.doe@example.com";
+        String emailString = "ongvang@example.com";
         String emailRegex = "^[\\w.%+-]+@[\\w.-]+\\.[A-Za-z]{2,}$";
         boolean emailValid = Pattern.matches(emailRegex, emailString);
         System.out.println("Is the email address valid? " + emailValid);
